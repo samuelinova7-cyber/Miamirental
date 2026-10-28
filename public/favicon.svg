@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180e2e"/>
+      <stop offset="100%" stop-color="#0b0714"/>
+    </linearGradient>
+    <linearGradient id="neonEmerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with subtle glow border -->
+  <rect width="64" height="64" rx="16" fill="url(#bgGrad)"/>
+  <rect width="60" height="60" x="2" y="2" rx="14" fill="none" stroke="url(#neonPurple)" stroke-width="1.5" stroke-opacity="0.6"/>
+  <!-- Stylized Sports Car Aerodynamic Silhouette -->
+  <path d="M12 40 L16 35 C18 32 23 29 28 29 L39 29 C44 29 48 31 52 35 L55 40 C56 41 55 43 53 43 L14 43 C12 43 11 41 12 40 Z" fill="url(#neonPurple)" opacity="0.9"/>
+  <!-- Windshield Cutout -->
+  <path d="M23 35 L27 31 L37 31 L41 35 Z" fill="#0b0714" opacity="0.8"/>
+  <!-- Wheels / Neon Accents -->
+  <circle cx="21" cy="42" r="5" fill="#180e2e" stroke="url(#neonEmerald)" stroke-width="2"/>
+  <circle cx="45" cy="42" r="5" fill="#180e2e" stroke="url(#neonEmerald)" stroke-width="2"/>
+  <circle cx="21" cy="42" r="2" fill="url(#neonEmerald)"/>
+  <circle cx="45" cy="42" r="2" fill="url(#neonEmerald)"/>
+  <!-- Speed Dash -->
+  <path d="M10 27 L20 27" stroke="url(#neonEmerald)" stroke-width="2" stroke-linecap="round"/>
+</svg>
